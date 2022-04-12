@@ -1,0 +1,18 @@
+$ sshpass -p 'rowan' ssh localhost@192.168.203.255 'df -h' 
+192.168.203.131
+
+echo'rowan'|sudo -S apt install apache2
+1-to generate public key
+ssh keygen -o
+cat .ssh/id_rsa.pub
+cat .ssh/id_rsa.pub>authorized_keys
+sshpass -p rowan scp authorized_keys rowan@192.168.203.131:~/.ssh/authorized_keys
+2-create the file of ips4
+touch ips.txt
+192.168.203.255 rowa rowan
+nano vm.sh
+add the script included in the screenshot
+
+
+
+
