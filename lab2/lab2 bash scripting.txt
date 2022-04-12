@@ -1,7 +1,4 @@
-$ sshpass -p 'rowan' ssh localhost@192.168.203.255 'df -h' 
-192.168.203.131
 
-echo'rowan'|sudo -S apt install apache2
 1-to generate public key
 ssh keygen -o
 cat .ssh/id_rsa.pub
